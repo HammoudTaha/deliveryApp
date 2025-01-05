@@ -1,0 +1,1158 @@
+import 'package:delivaryapp/core/models/storeModel/store_enum_type.dart';
+import 'package:delivaryapp/core/models/productModel/product_model.dart';
+import 'package:delivaryapp/core/models/storeModel/store_address.dart';
+import 'package:delivaryapp/core/models/storeModel/store_model.dart';
+import 'package:uuid/uuid.dart';
+
+String id = '';
+List<StoreModel> allStroes = [
+  StoreModel(
+    id: id = const Uuid().v8(),
+    name: ' Shoes',
+    imageUrl: 'assets/images/shoes/S9.png',
+    products: [
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Shoes Waman',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/shoes/S1.png',
+          'assets/images/shoes/S2.png',
+          'assets/images/shoes/S3.png',
+        ],
+        price: 457.7,
+        sales: 34,
+        reviewers: 566,
+        isFavorite: false,
+        amount: 7,
+        rating: 3.4,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Sandle Shose',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/shoes/S4.png',
+          'assets/images/shoes/S5.png',
+          'assets/images/shoes/S6.png'
+        ],
+        price: 46.7,
+        sales: 78,
+        reviewers: 232,
+        isFavorite: true,
+        amount: 7,
+        rating: 4.3,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Boot Shoes',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/shoes/S7.png',
+          'assets/images/shoes/S8.png',
+          'assets/images/shoes/S9.png'
+        ],
+        price: 457.7,
+        sales: 34,
+        reviewers: 566,
+        isFavorite: false,
+        amount: 0,
+        rating: 2.4,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Kandra Shoes',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/shoes/S10.png',
+          'assets/images/shoes/S11.png',
+          'assets/images/shoes/S12.png'
+        ],
+        price: 457.7,
+        sales: 34,
+        reviewers: 566,
+        isFavorite: false,
+        amount: 9,
+        rating: 4.5,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Popage Shoes',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/shoes/S13.png',
+          'assets/images/shoes/S14.png',
+          'assets/images/shoes/S15.png',
+        ],
+        price: 875.7,
+        sales: 23,
+        reviewers: 985,
+        isFavorite: false,
+        amount: 23,
+        rating: 1,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Toeta Shoes',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/shoes/S16.png',
+          'assets/images/shoes/S17.png',
+        ],
+        price: 342.7,
+        sales: 34,
+        reviewers: 453,
+        isFavorite: true,
+        amount: 64,
+        rating: 4,
+      ),
+    ],
+    location: StoreAddress(
+      cityName: 'Damascus',
+      townName: 'Mazah',
+      streetName: 'Mazah autostrad',
+      landmarkName: 'Behind The Minstry of justice',
+    ),
+    type: ProductType.shoes,
+    description:
+        'A professional software engineer with over 3 years of experience in software develop and web technologies. Specialized in front develop using dart, Flutter. I have a back in operating systems, including experience with both Windows and Linux distributions',
+    rating: 1.4,
+  ),
+  StoreModel(
+    id: id = const Uuid().v8(),
+    name: ' Toys',
+    imageUrl: 'assets/images/toys/T7.png',
+    products: [
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Shoes Gogal',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/toys/T1.png',
+          'assets/images/toys/T2.png',
+          'assets/images/toys/T3.png',
+        ],
+        price: 583.7,
+        sales: 53,
+        reviewers: 54,
+        isFavorite: true,
+        amount: 7,
+        rating: 3.4,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Sandle Toy',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/toys/T4.png',
+          'assets/images/toys/T5.png',
+          'assets/images/toys/T6.png',
+          'assets/images/toys/T7.png'
+        ],
+        price: 46.7,
+        sales: 78,
+        reviewers: 232,
+        isFavorite: false,
+        amount: 7,
+        rating: 4.3,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Boot Toy',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/toys/T8.png',
+          'assets/images/toys/T9.png',
+          'assets/images/toys/T10.png',
+          'assets/images/toys/T11.png',
+          'assets/images/toys/T12.png'
+        ],
+        price: 457.7,
+        sales: 34,
+        reviewers: 566,
+        isFavorite: false,
+        amount: 43,
+        rating: 2.4,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Kandra Toy',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/toys/T13.png',
+          'assets/images/toys/T14.png',
+          'assets/images/toys/T15.png'
+        ],
+        price: 457.7,
+        sales: 34,
+        reviewers: 566,
+        isFavorite: true,
+        amount: 9,
+        rating: 4.5,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Popage Toy',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/toys/T16.png',
+          'assets/images/toys/T17.png',
+          'assets/images/toys/T18.png',
+        ],
+        price: 875.7,
+        sales: 23,
+        reviewers: 985,
+        isFavorite: false,
+        amount: 23,
+        rating: 1,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Toeta Toy',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/toys/T19.png',
+          'assets/images/toys/T20.png',
+        ],
+        price: 342.7,
+        sales: 34,
+        reviewers: 453,
+        isFavorite: true,
+        amount: 64,
+        rating: 4,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Hodhe Toy',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/toys/T21.png',
+          'assets/images/toys/T22.png',
+          'assets/images/toys/T23.png',
+        ],
+        price: 654.7,
+        sales: 54,
+        reviewers: 65,
+        isFavorite: false,
+        amount: 0,
+        rating: 1.6,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Foafe Toy',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/toys/T24.png',
+          'assets/images/toys/T25.png',
+          'assets/images/toys/T26.png',
+          'assets/images/toys/T27.png',
+        ],
+        price: 45.7,
+        sales: 54,
+        reviewers: 543,
+        isFavorite: true,
+        amount: 34,
+        rating: 4.6,
+      ),
+    ],
+    location: StoreAddress(
+      cityName: 'Al_Raqqa',
+      townName: 'Mazah',
+      streetName: 'Mazah autostrad 54',
+      landmarkName: 'Front The Minstry of justice',
+    ),
+    type: ProductType.games,
+    description:
+        'A professional software engineer with over 3 years of experience in software develop and web technologies. Specialized in front develop using dart, Flutter. I have a back in operating systems, including experience with both Windows and Linux distributions',
+    rating: 4.6,
+  ),
+  StoreModel(
+    id: id = const Uuid().v8(),
+    name: ' Cloths',
+    imageUrl: 'assets/images/Cloths/C13.png',
+    products: [
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Cloth Gogal',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/Cloths/C1.png',
+          'assets/images/Cloths/C2.png',
+          'assets/images/Cloths/C3.png',
+        ],
+        price: 583.7,
+        sales: 53,
+        reviewers: 54,
+        isFavorite: true,
+        amount: 7,
+        rating: 3.4,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Sandle CLoth',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/Cloths/C4.png',
+          'assets/images/Cloths/C5.png',
+          'assets/images/Cloths/C6.png',
+          'assets/images/Cloths/C7.png'
+        ],
+        price: 46.7,
+        sales: 78,
+        reviewers: 232,
+        isFavorite: false,
+        amount: 0,
+        rating: 4.3,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Boot Cloth',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/Cloths/C8.png',
+          'assets/images/Cloths/C9.png',
+          'assets/images/Cloths/C10.png',
+          'assets/images/Cloths/C11.png',
+          'assets/images/Cloths/C12.png'
+        ],
+        price: 543.7,
+        sales: 34,
+        reviewers: 754,
+        isFavorite: true,
+        amount: 43,
+        rating: 2.1,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Kandra Cloth',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/Cloths/C13.png',
+          'assets/images/Cloths/C14.png',
+          'assets/images/Cloths/C15.png'
+        ],
+        price: 457.7,
+        sales: 34,
+        reviewers: 566,
+        isFavorite: true,
+        amount: 9,
+        rating: 4.5,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Popage Cloth',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/Cloths/C16.png',
+          'assets/images/Cloths/C17.png',
+          'assets/images/Cloths/C18.png',
+        ],
+        price: 5326.7,
+        sales: 23,
+        reviewers: 985,
+        isFavorite: false,
+        amount: 0,
+        rating: 1,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Toeta Cloth',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/Cloths/C19.png',
+          'assets/images/Cloths/C20.png',
+        ],
+        price: 342.7,
+        sales: 34,
+        reviewers: 54,
+        isFavorite: true,
+        amount: 64,
+        rating: 4,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Hodhe Cloth',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/Cloths/C21.png',
+          'assets/images/Cloths/C22.png',
+          'assets/images/Cloths/C23.png',
+        ],
+        price: 654.7,
+        sales: 54,
+        reviewers: 65,
+        isFavorite: false,
+        amount: 0,
+        rating: 1.6,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Foafe Cloth',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/Cloths/C24.png',
+          'assets/images/Cloths/C25.png',
+          'assets/images/Cloths/C26.png',
+          'assets/images/Cloths/C27.png',
+        ],
+        price: 45.7,
+        sales: 54,
+        reviewers: 543,
+        isFavorite: true,
+        amount: 34,
+        rating: 4.6,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Gogalp Cloth',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/Cloths/C28.png',
+          'assets/images/Cloths/C29.png',
+          'assets/images/Cloths/C30.png',
+          'assets/images/Cloths/C31.png',
+          'assets/images/Cloths/C32.png',
+          'assets/images/Cloths/C33.png',
+        ],
+        price: 435.7,
+        sales: 24,
+        reviewers: 54433,
+        isFavorite: false,
+        amount: 54,
+        rating: 3.3,
+      ),
+    ],
+    location: StoreAddress(
+      cityName: 'Allppo',
+      townName: 'Golan',
+      streetName: 'Mazah 54ji 54',
+      landmarkName: 'Front The Minstry of justice',
+    ),
+    type: ProductType.clothes,
+    description:
+        'A professional software engineer with over 3 years of experience in software develop and web technologies. Specialized in front develop using dart, Flutter. I have a back in operating systems, including experience with both Windows and Linux distributions',
+    rating: 3,
+  ),
+  StoreModel(
+    id: id = const Uuid().v8(),
+    name: 'Computers',
+    imageUrl: 'assets/images/Cumputers/L8.png',
+    products: [
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Computer Gogal',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/Cumputers/L1.png',
+          'assets/images/Cumputers/L2.png',
+          'assets/images/Cumputers/L3.png',
+        ],
+        price: 583.7,
+        sales: 53,
+        reviewers: 54,
+        isFavorite: true,
+        amount: 7,
+        rating: 3.4,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Sandle Computer',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/Cumputers/L4.png',
+          'assets/images/Cumputers/L5.png',
+          'assets/images/Cumputers/L6.png',
+          'assets/images/Cumputers/L7.png'
+        ],
+        price: 46.7,
+        sales: 78,
+        reviewers: 232,
+        isFavorite: false,
+        amount: 0,
+        rating: 4.3,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Boot Cloth',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/Cumputers/L8.png',
+          'assets/images/Cumputers/L9.png',
+          'assets/images/Cumputers/L10.png',
+          'assets/images/Cumputers/L11.png',
+          'assets/images/Cumputers/L12.png'
+        ],
+        price: 543.7,
+        sales: 34,
+        reviewers: 754,
+        isFavorite: true,
+        amount: 43,
+        rating: 2.1,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Kandra Computer',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/Cumputers/L13.png',
+          'assets/images/Cumputers/L14.png',
+          'assets/images/Cumputers/L15.png'
+        ],
+        price: 457.7,
+        sales: 34,
+        reviewers: 566,
+        isFavorite: true,
+        amount: 9,
+        rating: 4.5,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Popage Computers',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/Cumputers/L16.png',
+          'assets/images/Cumputers/L17.png',
+          'assets/images/Cumputers/L18.png',
+        ],
+        price: 5326.7,
+        sales: 23,
+        reviewers: 985,
+        isFavorite: false,
+        amount: 0,
+        rating: 1,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Toeta Computer',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/Cumputers/L19.png',
+          'assets/images/Cumputers/L20.png',
+        ],
+        price: 342.7,
+        sales: 34,
+        reviewers: 54,
+        isFavorite: true,
+        amount: 64,
+        rating: 4,
+      ),
+    ],
+    location: StoreAddress(
+      cityName: 'Al-haska',
+      townName: 'Shadady',
+      streetName: 'Hoary 54ji 54',
+      landmarkName: 'Front The Minstry of justice',
+    ),
+    type: ProductType.computers,
+    description:
+        'A professional software engineer with over 3 years of experience in software develop and web technologies. Specialized in front develop using dart, Flutter. I have a back in operating systems, including experience with both Windows and Linux distributions',
+    rating: 1,
+  ),
+  StoreModel(
+    id: id = const Uuid().v8(),
+    name: ' Furntures',
+    imageUrl: 'assets/images/Furntures/F9.png',
+    products: [
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'furnture Gogal',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/Furntures/F1.png',
+          'assets/images/Furntures/F2.png',
+          'assets/images/Furntures/F3.png',
+        ],
+        price: 583.7,
+        sales: 53,
+        reviewers: 54,
+        isFavorite: true,
+        amount: 7,
+        rating: 3.4,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Sandle furnture',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/Furntures/F4.png',
+          'assets/images/Furntures/F5.png',
+          'assets/images/Furntures/F6.png',
+          'assets/images/Furntures/F7.png'
+        ],
+        price: 46.7,
+        sales: 78,
+        reviewers: 232,
+        isFavorite: false,
+        amount: 0,
+        rating: 4.3,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Boot Cloth',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/Furntures/F8.png',
+          'assets/images/Furntures/F9.png',
+          'assets/images/Furntures/F10.png',
+          'assets/images/Furntures/F11.png',
+          'assets/images/Furntures/F12.png'
+        ],
+        price: 543.7,
+        sales: 34,
+        reviewers: 754,
+        isFavorite: true,
+        amount: 43,
+        rating: 2.1,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Kandra furntrue',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/Furntures/F13.png',
+          'assets/images/Furntures/F14.png',
+          'assets/images/Furntures/F15.png'
+        ],
+        price: 457.7,
+        sales: 34,
+        reviewers: 566,
+        isFavorite: true,
+        amount: 9,
+        rating: 4.5,
+      ),
+    ],
+    location: StoreAddress(
+      cityName: 'Al-haska',
+      townName: 'Shadady',
+      streetName: 'Hoary 54ji 54',
+      landmarkName: 'Front The Minstry of justice',
+    ),
+    type: ProductType.furniture,
+    description:
+        'A professional software engineer with over 3 years of experience in software develop and web technologies. Specialized in front develop using dart, Flutter. I have a back in operating systems, including experience with both Windows and Linux distributions',
+    rating: 2.6,
+  ),
+  StoreModel(
+    id: id = const Uuid().v8(),
+    name: ' Kitchenware',
+    imageUrl: 'assets/images/kitchenware/K13.png',
+    products: [
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Kitchenware Gogal',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/kitchenware/K1.png',
+          'assets/images/kitchenware/K2.png',
+          'assets/images/kitchenware/K3.png',
+        ],
+        price: 583.7,
+        sales: 53,
+        reviewers: 54,
+        isFavorite: true,
+        amount: 7,
+        rating: 3.4,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Sandle Kitchenware',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/kitchenware/K4.png',
+          'assets/images/kitchenware/K5.png',
+          'assets/images/kitchenware/K6.png',
+          'assets/images/kitchenware/K7.png'
+        ],
+        price: 46.7,
+        sales: 78,
+        reviewers: 232,
+        isFavorite: false,
+        amount: 0,
+        rating: 4.3,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Boot kitchenware',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/kitchenware/K8.png',
+          'assets/images/kitchenware/K9.png',
+          'assets/images/kitchenware/K10.png',
+          'assets/images/kitchenware/K11.png',
+          'assets/images/kitchenware/K12.png'
+        ],
+        price: 543.7,
+        sales: 34,
+        reviewers: 754,
+        isFavorite: true,
+        amount: 43,
+        rating: 2.1,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Kandra kitchenware',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/kitchenware/K13.png',
+          'assets/images/kitchenware/K14.png',
+          'assets/images/kitchenware/K15.png'
+        ],
+        price: 457.7,
+        sales: 34,
+        reviewers: 566,
+        isFavorite: true,
+        amount: 9,
+        rating: 4.5,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Popage kitchenware',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/kitchenware/K16.png',
+          'assets/images/kitchenware/K17.png',
+          'assets/images/kitchenware/K18.png',
+        ],
+        price: 5326.7,
+        sales: 23,
+        reviewers: 985,
+        isFavorite: false,
+        amount: 0,
+        rating: 1,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Toeta kitchhenware',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/kitchenware/K19.png',
+          'assets/images/kitchenware/K20.png',
+        ],
+        price: 342.7,
+        sales: 34,
+        reviewers: 54,
+        isFavorite: true,
+        amount: 64,
+        rating: 4,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Hodhe kitchenware',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/kitchenware/K21.png',
+          'assets/images/kitchenware/K22.png',
+          'assets/images/kitchenware/K23.png',
+        ],
+        price: 654.7,
+        sales: 54,
+        reviewers: 65,
+        isFavorite: false,
+        amount: 0,
+        rating: 1.6,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Foafe kitchenware',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/kitchenware/K24.png',
+          'assets/images/kitchenware/K25.png',
+          'assets/images/kitchenware/K26.png',
+          'assets/images/kitchenware/K27.png',
+        ],
+        price: 45.7,
+        sales: 54,
+        reviewers: 543,
+        isFavorite: true,
+        amount: 34,
+        rating: 4.6,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Gogalp kitchenware',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/kitchenware/K28.png',
+          'assets/images/kitchenware/K29.png',
+          'assets/images/kitchenware/K30.png',
+          'assets/images/kitchenware/K31.png',
+          'assets/images/kitchenware/K32.png',
+        ],
+        price: 435.7,
+        sales: 24,
+        reviewers: 54433,
+        isFavorite: false,
+        amount: 54,
+        rating: 3.3,
+      ),
+    ],
+    location: StoreAddress(
+      cityName: 'Homs',
+      townName: 'Hodnj',
+      streetName: 'fjn 54ji 54',
+      landmarkName: 'Front The Minstry of justice',
+    ),
+    type: ProductType.kitchenware,
+    description:
+        'A professional software engineer with over 3 years of experience in software develop and web technologies. Specialized in front develop using dart, Flutter. I have a back in operating systems, including experience with both Windows and Linux distributions',
+    rating: 1.6,
+  ),
+  StoreModel(
+    id: id = const Uuid().v8(),
+    name: 'Sport',
+    imageUrl: 'assets/images/Sports/P4.png',
+    products: [
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'sport Gogal',
+        description:
+            'A professional software engineer with over 3 years of experience in software develop and web technologies. Specialized in front develop using dart, Flutter. I have a back in operating systems, including experience with both Windows and Linux distributions',
+        images: [
+          'assets/images/Sports/P1.png',
+          'assets/images/Sports/P2.png',
+          'assets/images/Sports/P3.png',
+        ],
+        price: 583.7,
+        sales: 53,
+        reviewers: 54,
+        isFavorite: true,
+        amount: 7,
+        rating: 3.4,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Sandle sport',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/Sports/P4.png',
+          'assets/images/Sports/P5.png',
+          'assets/images/Sports/P6.png',
+          'assets/images/Sports/P7.png'
+        ],
+        price: 46.7,
+        sales: 78,
+        reviewers: 232,
+        isFavorite: false,
+        amount: 0,
+        rating: 4.3,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Boot sport',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/Sports/P8.png',
+          'assets/images/Sports/P9.png',
+          'assets/images/Sports/P10.png',
+          'assets/images/Sports/P11.png',
+          'assets/images/Sports/P12.png'
+        ],
+        price: 543.7,
+        sales: 34,
+        reviewers: 754,
+        isFavorite: true,
+        amount: 43,
+        rating: 2.1,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Kandra sport',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/Sports/P13.png',
+          'assets/images/Sports/P14.png',
+          'assets/images/Sports/P15.png'
+        ],
+        price: 457.7,
+        sales: 34,
+        reviewers: 566,
+        isFavorite: true,
+        amount: 9,
+        rating: 4.5,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Popage sport',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/Sports/P16.png',
+          'assets/images/Sports/P17.png',
+          'assets/images/Sports/P18.png',
+        ],
+        price: 5326.7,
+        sales: 23,
+        reviewers: 985,
+        isFavorite: false,
+        amount: 0,
+        rating: 1,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Toeta sport',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/Sports/P19.png',
+          'assets/images/Sports/P20.png',
+        ],
+        price: 342.7,
+        sales: 34,
+        reviewers: 54,
+        isFavorite: true,
+        amount: 64,
+        rating: 4,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Hodhe sport',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/Sports/P21.png',
+          'assets/images/Sports/P22.png',
+          'assets/images/Sports/P23.png',
+        ],
+        price: 654.7,
+        sales: 54,
+        reviewers: 65,
+        isFavorite: false,
+        amount: 0,
+        rating: 1.6,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Foafe sport',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/Sports/P24.png',
+          'assets/images/Sports/P25.png',
+          'assets/images/Sports/P26.png',
+        ],
+        price: 45.7,
+        sales: 54,
+        reviewers: 543,
+        isFavorite: true,
+        amount: 34,
+        rating: 4.6,
+      ),
+    ],
+    location: StoreAddress(
+      cityName: 'Homs',
+      townName: 'Hodnj',
+      streetName: 'fjn 54ji 54',
+      landmarkName: 'Front The Minstry of justice',
+    ),
+    type: ProductType.kitchenware,
+    description:
+        'A professional software engineer with over 3 years of experience in software development and web technologies. Specialized in frontend development using dart, Flutter. I have a background in operating systems, including experience with both Windows and Linux distributions, Expert in IT and networks,Google Developer Expert.',
+    rating: 0,
+  ),
+  StoreModel(
+    id: id = const Uuid().v8(),
+    name: ' Watches',
+    imageUrl: 'assets/images/Watches/W1.png',
+    products: [
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'watch Gogal',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/Watches/W1.png',
+          'assets/images/Watches/W2.png',
+          'assets/images/Watches/W3.png',
+        ],
+        price: 583.7,
+        sales: 53,
+        reviewers: 54,
+        isFavorite: true,
+        amount: 7,
+        rating: 3.4,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Sandle watch',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/Watches/W4.png',
+          'assets/images/Watches/W5.png',
+          'assets/images/Watches/W6.png',
+          'assets/images/Watches/W7.png'
+        ],
+        price: 46.7,
+        sales: 78,
+        reviewers: 232,
+        isFavorite: false,
+        amount: 0,
+        rating: 4.3,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Boot watch',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/Watches/W1.png',
+          'assets/images/Watches/W8.png',
+          'assets/images/Watches/W9.png',
+          'assets/images/Watches/W10.png',
+          'assets/images/Watches/W11.png'
+        ],
+        price: 543.7,
+        sales: 34,
+        reviewers: 754,
+        isFavorite: true,
+        amount: 43,
+        rating: 2.1,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Kandra watch',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/Watches/W12.png',
+          'assets/images/Watches/W13.png',
+          'assets/images/Watches/W14.png'
+        ],
+        price: 457.7,
+        sales: 34,
+        reviewers: 566,
+        isFavorite: true,
+        amount: 9,
+        rating: 4.5,
+      ),
+      ProductModel(
+        id: const Uuid().v8(),
+        storeId: id,
+        name: 'Popage watch',
+        description:
+            '''The main purpose of texture units is to allow us to use more than 1 texture in our shaders. By assigning texture units to the samplers, we can bind to multiple textures at once as long as we activate the corresponding texture unit ﬁrst. Just like glBindTexturewe can activate texture units using glActiveTexturepassing in the texture unit we’d like to use. ''',
+        images: [
+          'assets/images/Watches/W15.png',
+          'assets/images/Sports/P16.png',
+          'assets/images/Sports/P17.png',
+        ],
+        price: 5326.7,
+        sales: 23,
+        reviewers: 985,
+        isFavorite: false,
+        amount: 0,
+        rating: 1,
+      ),
+    ],
+    location: StoreAddress(
+      cityName: 'adlib',
+      townName: 'Hodnj',
+      streetName: 'fjn 54ji 54',
+      landmarkName: 'Front The Minstry of justice',
+    ),
+    type: ProductType.watches,
+    description:
+        'A professional software engineer with over 3 years of experience in software develop and web technologies. Specialized in front develop using dart, Flutter. I have a back in operating systems, including experience with both Windows and Linux distributions',
+    rating: 4,
+  ),
+];
